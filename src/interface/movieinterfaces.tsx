@@ -8,5 +8,7 @@ export interface IMovie{
 export interface IMovies{
    page:number | null,
     results:IMovie[]
+    prev:number | null,
+    next:number | null,
 }
 

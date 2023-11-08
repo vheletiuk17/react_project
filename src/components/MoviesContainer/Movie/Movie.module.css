@@ -1,0 +1,15 @@
+.MovieBlock{
+    width: 20%;
+
+    flex-direction: column;
+
+}
+.poster{
+    width: 200px;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+.img{
+
+}

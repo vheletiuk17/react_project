@@ -2,17 +2,19 @@ import React, {FC} from 'react';
 
 import {IMovie} from "../../../interface/movieinterfaces";
 
+import css from './Movie.module.css'
+import {NavLink} from "react-router-dom";
 
 
 interface IProps {
     movie: IMovie
 }
 const Movie:FC<IProps> = ({movie}) => {
-    const {poster_path, original_title,vote_average} = movie
+    const {id,poster_path, original_title,vote_average} = movie
     return (
-        <div>
-            <img className={'poster'} src={"https://image.tmdb.org/t/p/w300" + poster_path} alt="img"/>
-            <div>{original_title}</div>
+        <div className={css.MovieBlock}>
+         <NavLink to={`/movie/${id}`}>   <img className={css.poster} src={"https://image.tmdb.org/t/p/w300" + poster_path} alt="img"/></NavLink>
+            <div className={css.textBlock}>{original_title}</div>
             <div>{vote_average}</div>
         </div>
     );

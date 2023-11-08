@@ -3,7 +3,7 @@ import {urls} from "../constants/urls";
 import {IMovies} from "../interface/movieinterfaces";
 
 const movieService = {
-    getAll:(): IRes<IMovies> => axiosService.get(urls.movie.base)
+    getAll:(page='1'): IRes<IMovies> => axiosService.get(urls.movie.base, {params:{page}})
 
 }
 

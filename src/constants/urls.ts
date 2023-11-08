@@ -4,10 +4,20 @@ const API_KEY = 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMGJjMjcwMzQ5YzMzYTFkYzN
 
 const movie = '/discover/movie';
 
+const genres = '/genre/movie/list'
+
+const info = `/movie`
+
 const urls ={
     movie:{
         base: movie
 
+    },
+    genres:{
+      base:genres
+    },
+    info:{
+        byId:(id:number) => `${movie}/${id}`
     }
 }
 

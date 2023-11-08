@@ -1,14 +1,16 @@
 import React from 'react';
+
 import {Header} from "../components/Header/Header";
 import {Outlet} from "react-router-dom";
-import {MoviesPage} from "../pages/MoviesPage";
+import css from './MainLayouts.module.css'
 
 const MainLayouts = () => {
     return (
-        <div>
+
+        <div className={css.MainLayouts}>
             <Header/>
             <Outlet/>
-            <MoviesPage/>
+
         </div>
     );
 };
