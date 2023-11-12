@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react';
+import {useSearchParams} from "react-router-dom";
 
 import {IMovie} from "../../../interface/movieinterfaces";
-import {movieService} from "../../../service/movieService";
-import {Movie} from "../Movie/Movie";
-
+import {movieService} from "../../../service";
+import {Movie} from "../Movie";
 import css from './Movies.module.css'
-import {useSearchParams} from "react-router-dom";
+
 
 
 const Movies = () => {

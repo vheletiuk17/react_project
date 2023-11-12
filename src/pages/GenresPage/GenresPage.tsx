@@ -1,5 +1,6 @@
 import React from 'react';
-import {Genres} from "../../components/GenresConteiner/Genres/Genres";
+
+import {Genres} from "../../components/GenresConteiner/Genres";
 
 const GenresPage = () => {
     return (

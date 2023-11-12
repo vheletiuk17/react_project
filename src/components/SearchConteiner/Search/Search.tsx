@@ -1,9 +1,9 @@
 import React, {FC} from 'react';
-
 import {NavLink} from "react-router-dom";
+
 import {IMovie} from "../../../interface/movieinterfaces";
 import css from './Search.module.css'
-import {urls} from "../../../constants/urls";
+import {urls} from "../../../constants";
 import {RatingStars} from "../../MoviesContainer/Stars/Rating";
 
 

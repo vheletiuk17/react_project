@@ -1,7 +1,6 @@
 import React, {FC} from 'react';
 
 import {IMovie} from "../../../interface/movieinterfaces";
-
 import css from './Movie.module.css'
 import {NavLink} from "react-router-dom";
 import {RatingStars} from "../Stars/Rating";

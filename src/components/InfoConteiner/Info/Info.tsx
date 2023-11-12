@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 
 import {IMovie} from "../../../interface/movieinterfaces";
-import {urls} from "../../../constants/urls";
+import {urls} from "../../../constants/";
 import css from './MovieInfo.module.css'
 import {RatingStars} from "../../MoviesContainer/Stars/Rating";
 

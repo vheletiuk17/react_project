@@ -1,5 +1,5 @@
 import {axiosService, IRes} from "./axiosService";
-import {urls} from "../constants/urls";
+import {urls} from "../constants";
 import {IMovie, IMovies, ISearch} from "../interface/movieinterfaces";
 
 const movieService = {

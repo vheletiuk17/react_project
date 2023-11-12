@@ -1,10 +1,11 @@
-    import {movieService} from "../../../service/movieService";
-import {IMovie} from "../../../interface/movieinterfaces";
 import React, {useEffect, useState} from "react";
 import {useSearchParams} from "react-router-dom";
-import {SearchForm} from "../SearchForms/SearchForm";
-import {Search} from "../Search/Search";
+
+import {SearchForm} from "../SearchForms";
+import {Search} from "../Search";
 import css from './Searchs.module.css'
+import {movieService} from "../../../service";
+import {IMovie} from "../../../interface/movieinterfaces";
 
 const Searchs = () => {
     const [movies, setMovies] = useState<IMovie[]>([]);

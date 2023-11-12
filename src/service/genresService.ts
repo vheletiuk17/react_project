@@ -1,7 +1,6 @@
 import {IGenres} from "../interface/genresInterfaces";
 import {axiosService, IRes} from "./axiosService";
-
-import {urls} from "../constants/urls";
+import {urls} from "../constants/";
 import {IMovies} from "../interface/movieinterfaces";
 
 const genresService = {

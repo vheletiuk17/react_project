@@ -1,5 +1,6 @@
 import React from 'react';
-import {Searchs} from "../../components/SearchConteiner/Searchs/Searchs";
+
+import {Searchs} from "../../components/SearchConteiner/Searchs";
 
 
 const SearchPage = () => {

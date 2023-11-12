@@ -1,5 +1,6 @@
 import React from 'react';
-import {Infos} from "../../components/InfoConteiner/Infos/Infos";
+
+import {Infos} from "../../components/InfoConteiner/Infos";
 
 const MovieDetailsPage = () => {
     return (

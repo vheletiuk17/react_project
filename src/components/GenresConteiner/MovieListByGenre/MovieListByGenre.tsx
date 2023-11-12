@@ -1,8 +1,9 @@
 import React, {FC, PropsWithChildren, useEffect, useState} from 'react';
 import {NavLink, useParams, useSearchParams} from "react-router-dom";
+
 import {IMovie} from "../../../interface/movieinterfaces";
-import {genresService} from "../../../service/genresService";
-import {urls} from "../../../constants/urls";
+import {genresService} from "../../../service";
+import {urls} from "../../../constants";
 import css from './MovieListByGenre.module.css'
 
 interface IProps extends PropsWithChildren{}

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-import {genresService} from "../../../service/genresService";
+import {genresService} from "../../../service";
 import {IGenre} from "../../../interface/genresInterfaces";
 import {Genre} from "../Genre";
 import css from './Genres.module.css'
