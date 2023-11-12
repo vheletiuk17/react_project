@@ -1,16 +1,20 @@
-import React from 'react';
-
+import React, {FC, PropsWithChildren} from 'react';
 import {Header} from "../components/Header/Header";
 import {Outlet} from "react-router-dom";
-import css from './MainLayouts.module.css'
 
-const MainLayouts = () => {
+interface IProps extends PropsWithChildren{
+
+}
+const MainLayouts:FC<IProps> = () => {
+   
     return (
+        <div>
 
-        <div className={css.MainLayouts}>
+
+        <div >
             <Header/>
             <Outlet/>
-
+        </div>
         </div>
     );
 };

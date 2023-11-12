@@ -1,0 +1,16 @@
+.MovieTrendsBlock {
+
+    border: 0.5px solid white;
+    border-radius: 40px;
+    margin-top: 20px;
+    height: 400px;
+    width: 250px;
+}
+
+.poster {
+    width: 200px;
+    border-radius: 25px;
+    padding: 10px;
+
+
+}

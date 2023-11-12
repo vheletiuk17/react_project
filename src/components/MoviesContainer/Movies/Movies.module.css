@@ -1,10 +1,18 @@
-.Movies{
+.Movies {
     display: flex;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
     text-align: center;
 
 }
-.background{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeD4c0ULPaKRViV8BFT1lBXpn-xvqSoVniLQ&usqp=CAU");
 
+.Pages {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.next, .prev{
+border-radius: 10px;
 }

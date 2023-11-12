@@ -1,3 +1,5 @@
-.GenreName{
-    font-size: 38px;
+.Genre {
+    display: flex;
+    font-size: 60px;
+
 }

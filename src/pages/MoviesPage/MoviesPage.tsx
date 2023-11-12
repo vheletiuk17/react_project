@@ -2,10 +2,7 @@ import React from 'react';
 import {Movies} from "../../components/MoviesContainer/Movies/Movies";
 
 
-
 const MoviesPage = () => {
-
-
 
 
     return (
@@ -13,7 +10,7 @@ const MoviesPage = () => {
         <div>
             <Movies/>
         </div>
-        );
+    );
 };
 
 export {MoviesPage};

@@ -1,14 +1,37 @@
-export interface IMovie{
+import exp from "constants";
+
+export interface IMovie {
+    adult: boolean
+    backdrop_path: string
+    genre_ids: string,
     id: number,
+    original_language: string,
     original_title: string,
+    overview: string
+    popularity: number
     poster_path: string,
-    vote_average: number,
+    release_data: string
+    title: string
+    video: boolean
+    vote_average: string
+    vote_count: number
 
 }
-export interface IMovies{
-   page:number | null,
-    results:IMovie[]
-    prev:number | null,
-    next:number | null,
+
+export interface IMovies {
+    total_pages: number
+    page: number | null,
+    results: IMovie[]
+    prev: number | null,
+    next: number | null,
+}
+
+
+export interface ISearch {
+    title: string,
+    page: number,
+    results: IMovie[] | []
+    prev: number | null,
+    next: number | null,
 }
 
