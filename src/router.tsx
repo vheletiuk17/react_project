@@ -1,11 +1,11 @@
 import {createBrowserRouter, Navigate} from "react-router-dom";
 
-import {MainLayouts} from "./Layouts";
-import {MoviesPage,} from "./pages/MoviesPage";
-import {MovieDetailsPage} from "./pages/MovieDeatailsPage";
-import {GenresPage} from "./pages/GenresPage";
-import {SearchPage} from "./pages/SearchPage";
-import {MovieListByGenre} from "./components/GenresConteiner/MovieListByGenre";
+import {MainLayouts} from "./layouts";
+import {MoviesPage,} from "./pages/moviesPage";
+import {MovieDetailsPage} from "./pages/movieDeatailsPage";
+import {GenresPage} from "./pages/genresPage";
+import {SearchPage} from "./pages/searchPage";
+import {MovieListByGenre} from "./components/genresConteiner/movieListByGenre";
 import './style.index.css'
 
 const router = createBrowserRouter([

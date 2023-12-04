@@ -1,7 +1,7 @@
-import {IGenres} from "../interface/genresInterfaces";
+import {IGenres} from "../interface/GenresInterfaces";
 import {axiosService, IRes} from "./axiosService";
 import {urls} from "../constants/";
-import {IMovies} from "../interface/movieinterfaces";
+import {IMovies} from "../interface/MovieInterfaces";
 
 const genresService = {
     getAll: (): IRes<IGenres> => axiosService.get(urls.genres.base),

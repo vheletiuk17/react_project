@@ -1,0 +1,22 @@
+.mainContent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.contentGenre{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+}
+.img {
+    width: 200px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.liContent{
+    width: 20%;
+
+}
